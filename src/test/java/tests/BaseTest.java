@@ -4,29 +4,28 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 public class BaseTest {
 
     public WebDriver driver;
 
+
     @Parameters({"browser"})
     @BeforeTest
-    public void setup(String browserType) {
+    public void setup(@Optional String browserType) {
         String osName = System.getProperty("os.name");
 
         if (osName.equalsIgnoreCase("Mac OS X")) {
             System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/macOS/gecko/geckodriver");
 
             if (browserType.equals("Chrome")) {
-                System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/macOS/chrome/chromedriver85");
+                System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/macOS/chrome/chromedriver86");
                 driver = new ChromeDriver();
             }
 

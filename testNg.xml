@@ -2,29 +2,27 @@
 
 <suite name="SuiteFromXML" verbose="1">
 
+    <test name="Search in Chrome">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="tests.GoogleSearchTest">
+                <methods>
+                    <include name="test0001"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 
     <test name="Search in FF">
         <parameter name="browser" value="FF"/>
         <classes>
             <class name="tests.GoogleSearchTest">
                 <methods>
-                    <include name="test_SearchWithParameter"/>
+                    <include name="test0001"/>
                 </methods>
             </class>
         </classes>
 
-    </test>
-
-
-    <test name="Search in Chrome">
-        <parameter name="browser" value="Chrome"/>
-        <classes>
-            <class name="tests.GoogleSearchTest">
-                <methods>
-                    <include name="test_SearchWithParameter"/>
-                </methods>
-            </class>
-        </classes>
     </test>
 
 </suite>

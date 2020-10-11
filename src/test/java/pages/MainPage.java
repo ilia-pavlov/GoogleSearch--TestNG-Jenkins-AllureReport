@@ -3,8 +3,9 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import tests.BaseTest;
 
-public class MainPage {
+public class MainPage extends BaseTest {
     private final WebDriver driver;
 
     String queryInputCSSSelector = "#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input";
