@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.MainPage;
 import pages.ResultsPage;
+import utilites.Log;
 
 public class GoogleSearchTest extends BaseTest {
 
@@ -17,14 +18,17 @@ public class GoogleSearchTest extends BaseTest {
 
         MainPage mainPage = new MainPage(driver);
         mainPage.open();
+        Log.info("Main page was opened");
         mainPage.typeQuery(queryForSearch);
+        Log.info("Query was typed");
         mainPage.submitQuery();
 
         ResultsPage resultsPage = new ResultsPage(driver);
         resultsPage.waitForStats();
         boolean statsVisible = resultsPage.isStatsVisible();
-
+        Log.info("Waiting to Assert!");
         Assert.assertTrue(statsVisible);
+        Log.info("Stats is visible!");
     }
 
     @Test

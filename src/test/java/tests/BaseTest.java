@@ -4,12 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
+import utilites.Log;
 
 public class BaseTest {
 
@@ -19,6 +19,9 @@ public class BaseTest {
     @Parameters({"browser"})
     @BeforeTest
     public void setup(@Optional String browserType) {
+
+        Log.startLog("Test is starting!");
+
         String osName = System.getProperty("os.name");
 
         if (osName.equalsIgnoreCase("Mac OS X")) {
@@ -28,7 +31,6 @@ public class BaseTest {
                 System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/macOS/chrome/chromedriver86");
                 driver = new ChromeDriver();
             }
-
         }
 
         if (osName.contains("windows")) {
@@ -42,6 +44,7 @@ public class BaseTest {
 
     @AfterMethod
     public void finishTest() {
+        Log.endLog("Test is ending!");
         driver.quit();
     }
 
