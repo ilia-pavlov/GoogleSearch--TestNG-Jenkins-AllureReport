@@ -26,7 +26,7 @@ public class GoogleSearchTest extends BaseTest {
         ResultsPage resultsPage = new ResultsPage(driver);
         resultsPage.waitForStats();
         boolean statsVisible = resultsPage.isStatsVisible();
-        Log.info("Waiting to Assert!");
+        Log.info("Waiting to result!");
         Assert.assertTrue(statsVisible);
         Log.info("Stats is visible!");
     }
