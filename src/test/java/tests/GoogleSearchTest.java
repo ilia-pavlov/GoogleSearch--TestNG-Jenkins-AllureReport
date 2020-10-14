@@ -31,7 +31,7 @@ public class GoogleSearchTest extends BaseTest {
         Log.info("Stats is visible!");
     }
 
-    @Test
+    @Test (priority = 3)
     public void test0002() {
         String queryForSearch = "Portnov Computer";
 
@@ -48,7 +48,7 @@ public class GoogleSearchTest extends BaseTest {
     }
 
 
-    @Test
+    @Test (priority = 1)
     public void test_SearchWithParameter() {
         String queryForSearch = "Portnov Computer";
 

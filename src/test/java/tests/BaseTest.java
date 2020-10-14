@@ -44,8 +44,8 @@ public class BaseTest {
 
     @AfterMethod
     public void finishTest() {
-        Log.endLog("Test is ending!");
         driver.quit();
+        Log.endLog("Test is ending!");
     }
 
     @AfterSuite

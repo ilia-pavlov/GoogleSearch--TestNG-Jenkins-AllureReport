@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AllTestSuits" verbose="1">
+
+    <test name="Search in Chrome">
+        <parameter name="browser" value="Chrome"/>
+          <classes>
+            <class name="tests.GoogleSearchTest"/>
+        </classes>
+    </test>
+
+</suite>
