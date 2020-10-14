@@ -1,4 +1,4 @@
-##testNgAllSuits.xml file for run TestNg
+# # testNgAllSuits.xml file for run TestNg
 1. program contained 3 tests
 2. after first test,  webdriver became a NULL
 
