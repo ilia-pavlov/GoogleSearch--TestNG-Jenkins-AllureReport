@@ -8,7 +8,6 @@ import tests.BaseTest;
 public class MainPage extends BaseTest {
     private final WebDriver driver;
 
-    String queryInputCSSSelector = "#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input";
 
     public MainPage(WebDriver driver) {
         this.driver = driver;
@@ -19,12 +18,12 @@ public class MainPage extends BaseTest {
     }
 
     public void typeQuery(String queryForSearch) {
-        WebElement element = driver.findElement(By.cssSelector(queryInputCSSSelector));
+        WebElement element = driver.findElement(By.name("q"));
         element.sendKeys(queryForSearch);
     }
 
     public void submitQuery() {
-        WebElement element = driver.findElement(By.cssSelector(queryInputCSSSelector));
+        WebElement element = driver.findElement(By.name("q"));
         element.submit();
     }
 }

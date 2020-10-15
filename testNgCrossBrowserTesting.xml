@@ -5,9 +5,6 @@
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="tests.GoogleSearchTest">
-                <methods>
-                    <include name="test_SearchWithParameter"/>
-                </methods>
             </class>
         </classes>
     </test>
@@ -16,9 +13,6 @@
         <parameter name="browser" value="FF"/>
         <classes>
             <class name="tests.GoogleSearchTest">
-                <methods>
-                    <include name="test_SearchWithParameter"/>
-                </methods>
             </class>
         </classes>
     </test>

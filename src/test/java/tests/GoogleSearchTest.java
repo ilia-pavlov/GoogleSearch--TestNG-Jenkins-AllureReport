@@ -12,9 +12,9 @@ public class GoogleSearchTest extends BaseTest {
     //2. Type the search query
     //3. Submit the query
     //4. Verify that results page is displayed
-    @Test
+    @Test (priority = 2)
     public void test0001() {
-        String queryForSearch = "Portnov Computer School";
+        String queryForSearch = "Selenium and Maven";
 
         MainPage mainPage = new MainPage(driver);
         mainPage.open();
@@ -33,7 +33,7 @@ public class GoogleSearchTest extends BaseTest {
 
     @Test (priority = 3)
     public void test0002() {
-        String queryForSearch = "Portnov Computer";
+        String queryForSearch = "TestNg and prioritize";
 
         MainPage mainPage = new MainPage(driver);
         mainPage.open();
@@ -50,7 +50,7 @@ public class GoogleSearchTest extends BaseTest {
 
     @Test (priority = 1)
     public void test_SearchWithParameter() {
-        String queryForSearch = "Portnov Computer";
+        String queryForSearch = "In JAVA we trust!";
 
         MainPage mainPage = new MainPage(driver);
         mainPage.open();
