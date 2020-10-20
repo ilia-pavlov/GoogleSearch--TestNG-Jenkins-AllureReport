@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteFromXML]">
+  <test thread-count="5" name="Search in Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tests.GoogleSearchTest">
+        <methods>
+          <include name="test0001"/>
+          <include name="test0002"/>
+          <include name="afterSuite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.GoogleSearchTest -->
+    </classes>
+  </test> <!-- Search in Chrome(failed) -->
+</suite> <!-- Failed suite [SuiteFromXML] -->
