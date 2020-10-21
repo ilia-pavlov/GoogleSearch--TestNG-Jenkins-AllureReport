@@ -49,7 +49,7 @@ public class GoogleSearchTest extends BaseTest {
 
 
     @Test (priority = 1)
-    public void tc_03_searchValue() {
+    public void tc_03_searchValue () {
         String queryForSearch = "In JAVA we trust!";
 
         MainPage mainPage = new MainPage(driver);
