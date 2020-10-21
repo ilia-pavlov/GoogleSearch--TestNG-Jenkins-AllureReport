@@ -7,15 +7,15 @@
 5. setup continuous integration use Jenkins
 6. setup Allure report 
 ### test plan:
-#### test 01 (select prioriry and type of test):
+#### tc 01 (select prioriry and type of test):
 1. open main page
 2. sumbint query ("Selenium and Maven") 
 3. verify result by stats on resul page
-#### test 02 (select prioriry and type of test):
+#### tc 02 (select prioriry and type of test):
 1. open main page ("TestNg and prioritize")
 2. sumbint query ("Selenium and Maven") 
 3. verify result by stats on resul page
-#### test 03 (select prioriry and type of test):
+#### tc 03 (select prioriry and type of test):
 1. open main page 
 2. sumbint query ("In JAVA we trust!") 
 3. verify result by stats on resul page
