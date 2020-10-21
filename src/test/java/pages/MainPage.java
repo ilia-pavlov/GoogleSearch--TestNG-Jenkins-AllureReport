@@ -8,7 +8,6 @@ import tests.BaseTest;
 public class MainPage extends BaseTest {
     private final WebDriver driver;
 
-
     public MainPage(WebDriver driver) {
         this.driver = driver;
     }

@@ -13,7 +13,7 @@ public class GoogleSearchTest extends BaseTest {
     //3. Submit the query
     //4. Verify that results page is displayed
     @Test (priority = 2)
-    public void test0001() {
+    public void tc_01_searchValue() {
         String queryForSearch = "Selenium and Maven";
 
         MainPage mainPage = new MainPage(driver);
@@ -32,7 +32,7 @@ public class GoogleSearchTest extends BaseTest {
     }
 
     @Test (priority = 3)
-    public void test0002() {
+    public void tc_02_searchValue() {
         String queryForSearch = "TestNg and prioritize";
 
         MainPage mainPage = new MainPage(driver);
@@ -49,7 +49,7 @@ public class GoogleSearchTest extends BaseTest {
 
 
     @Test (priority = 1)
-    public void test_SearchWithParameter() {
+    public void tc_03_searchValue() {
         String queryForSearch = "In JAVA we trust!";
 
         MainPage mainPage = new MainPage(driver);

@@ -40,12 +40,12 @@ public class BaseTest {
         if (browserType.equals("FF")) {
             driver = new FirefoxDriver();
         }
-    /*}
+    }
 
-    @AfterMethod
+    @AfterTest
     public void finishTest() {
         driver.quit();
-        Log.endLog("Test is ending!"); */
+        Log.endLog("Test is ending!");
     }
 
     @AfterSuite
