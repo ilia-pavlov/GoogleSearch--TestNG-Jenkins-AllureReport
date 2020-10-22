@@ -29,7 +29,7 @@
 
 1. use one of the following ways to get Allure:
 </br>a. Grab it from [bintray](https://bintray.com/qameta/maven/allure2) (see Downloads section).
-</br>OR
+</br>
 </br>b. Using Homebrew:
 
 $ brew install allure
