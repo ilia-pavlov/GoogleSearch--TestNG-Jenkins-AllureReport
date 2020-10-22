@@ -27,10 +27,17 @@
 --------------------------------------------------------
 ### Download
 
-1. use one of the following ways to get Allure:
-</br>a. Grab it from [bintray](https://bintray.com/qameta/maven/allure2) (see Downloads section).
-</br>b. Using Homebrew:
+You can use one of the following ways to get Allure:
 
-$ brew install allure
+* Grab it from [bintray](https://bintray.com/qameta/maven/allure2) (see Downloads section).
+* Using Homebrew:
 
-2. 
+    ```bash
+    $ brew install allure
+    ```
+* For Windows, Allure is available from the [Scoop](http://scoop.sh/) commandline-installer.
+To install Allure, download and install Scoop and then execute in the Powershell:
+
+    ```bash
+    scoop install allure
+    ```
