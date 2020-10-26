@@ -41,3 +41,15 @@ To install Allure, download and install Scoop and then execute in the Powershell
     ```bash
     scoop install allure
     ```
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-
+### Extra materials
+# Allure-report
+
+1. [Allure Maven Plugin](https://github.com/allure-framework/allure-maven/tree/dependabot/maven/maven.version-3.6.3)
+2. [Allure Report](https://github.com/allure-framework/allure2/blob/actions/README.md)
+3. [results does not exists](https://github.com/allure-framework/allure2/issues/1133)
+4. [The available latest version of allure-testng](https://docs.qameta.io/allure/#_testng)
+5. [allure-framework/allure-core](https://gitter.im/allure-framework/allure-core?at=5e3c401fd9895b17c3d5d0e2)
