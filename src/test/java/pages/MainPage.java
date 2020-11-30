@@ -6,7 +6,9 @@ import org.openqa.selenium.WebElement;
 import tests.BaseTest;
 
 public class MainPage extends BaseTest {
-    private final WebDriver driver;
+    private  WebDriver driver;
+
+    By uniqueName =By.name("q");
 
     public MainPage(WebDriver driver) {
         this.driver = driver;
@@ -17,12 +19,12 @@ public class MainPage extends BaseTest {
     }
 
     public void typeQuery(String queryForSearch) {
-        WebElement element = driver.findElement(By.name("q"));
+        WebElement element = driver.findElement(uniqueName);
         element.sendKeys(queryForSearch);
     }
 
     public void submitQuery() {
-        WebElement element = driver.findElement(By.name("q"));
+        WebElement element = driver.findElement(uniqueName);
         element.submit();
     }
 }

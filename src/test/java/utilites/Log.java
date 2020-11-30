@@ -39,7 +39,6 @@ public class Log {
         Log.fatal(message);
     }
 
-
 }
 
 

@@ -14,21 +14,19 @@ public class GoogleSearchTest extends BaseTest {
     //4. Verify that results page is displayed
     @Test (priority = 2)
     public void tc_01_searchValue() {
+        Log.startLog("startLog");
         String queryForSearch = "Selenium and Maven";
 
         MainPage mainPage = new MainPage(driver);
         mainPage.open();
-        Log.info("Main page was opened");
         mainPage.typeQuery(queryForSearch);
-        Log.info("Query was typed");
         mainPage.submitQuery();
 
         ResultsPage resultsPage = new ResultsPage(driver);
         resultsPage.waitForStats();
         boolean statsVisible = resultsPage.isStatsVisible();
-        Log.info("Waiting to result!");
         Assert.assertTrue(statsVisible);
-        Log.info("Stats is visible!");
+
     }
 
     @Test (priority = 3)
@@ -64,3 +62,5 @@ public class GoogleSearchTest extends BaseTest {
         Assert.assertTrue(statsVisible);
     }
 }
+
+

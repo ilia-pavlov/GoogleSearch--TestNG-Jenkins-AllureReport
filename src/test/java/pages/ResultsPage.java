@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import tests.BaseTest;
 
 public class ResultsPage extends BaseTest {
-    private final WebDriver driver;
+    private  WebDriver driver;
 
     By resultsStats = By.id("result-stats");
 

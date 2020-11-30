@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-22T02:30:31Z" name="SuiteFromXML" finished-at="2020-10-22T02:31:00Z" duration-ms="28968">
+  <suite name="SuiteFromXML" duration-ms="33031" started-at="2020-10-23T03:36:28Z" finished-at="2020-10-23T03:37:01Z">
     <groups>
     </groups>
-    <test started-at="2020-10-22T02:30:31Z" name="Search in Chrome" finished-at="2020-10-22T02:30:48Z" duration-ms="17308">
+    <test name="Search in Chrome" duration-ms="16909" started-at="2020-10-23T03:36:28Z" finished-at="2020-10-23T03:36:45Z">
       <class name="tests.GoogleSearchTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.GoogleSearchTest@41f4fe5]" started-at="2020-10-22T02:30:31Z" name="setup" finished-at="2020-10-22T02:30:36Z" duration-ms="4815" status="PASS">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.GoogleSearchTest@f2c488]" name="setup" is-config="true" duration-ms="5563" started-at="2020-10-23T03:36:28Z" finished-at="2020-10-23T03:36:34Z">
           <params>
             <param index="0">
               <value>
@@ -18,27 +18,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc_03_searchValue()[pri:1, instance:tests.GoogleSearchTest@41f4fe5]" started-at="2020-10-22T02:30:36Z" name="tc_03_searchValue" finished-at="2020-10-22T02:30:44Z" duration-ms="7792" status="PASS">
+        <test-method status="PASS" signature="tc_03_searchValue()[pri:1, instance:tests.GoogleSearchTest@f2c488]" name="tc_03_searchValue" duration-ms="5696" started-at="2020-10-23T03:36:34Z" finished-at="2020-10-23T03:36:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_03_searchValue -->
-        <test-method signature="tc_01_searchValue()[pri:2, instance:tests.GoogleSearchTest@41f4fe5]" started-at="2020-10-22T02:30:44Z" name="tc_01_searchValue" finished-at="2020-10-22T02:30:46Z" duration-ms="1927" status="PASS">
+        <test-method status="PASS" signature="tc_01_searchValue()[pri:2, instance:tests.GoogleSearchTest@f2c488]" name="tc_01_searchValue" duration-ms="2883" started-at="2020-10-23T03:36:40Z" finished-at="2020-10-23T03:36:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_01_searchValue -->
-        <test-method signature="tc_02_searchValue()[pri:3, instance:tests.GoogleSearchTest@41f4fe5]" started-at="2020-10-22T02:30:46Z" name="tc_02_searchValue" finished-at="2020-10-22T02:30:48Z" duration-ms="2027" status="PASS">
+        <test-method status="PASS" signature="tc_02_searchValue()[pri:3, instance:tests.GoogleSearchTest@f2c488]" name="tc_02_searchValue" duration-ms="1953" started-at="2020-10-23T03:36:43Z" finished-at="2020-10-23T03:36:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_02_searchValue -->
-        <test-method is-config="true" signature="finishTest()[pri:0, instance:tests.GoogleSearchTest@41f4fe5]" started-at="2020-10-22T02:30:48Z" name="finishTest" finished-at="2020-10-22T02:30:48Z" duration-ms="257" status="PASS">
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:tests.GoogleSearchTest@f2c488]" name="finishTest" is-config="true" duration-ms="301" started-at="2020-10-23T03:36:45Z" finished-at="2020-10-23T03:36:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishTest -->
       </class> <!-- tests.GoogleSearchTest -->
     </test> <!-- Search in Chrome -->
-    <test started-at="2020-10-22T02:30:48Z" name="Search in FF" finished-at="2020-10-22T02:31:00Z" duration-ms="11580">
+    <test name="Search in FF" duration-ms="15954" started-at="2020-10-23T03:36:45Z" finished-at="2020-10-23T03:37:01Z">
       <class name="tests.GoogleSearchTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.GoogleSearchTest@7ea899a9]" started-at="2020-10-22T02:30:48Z" name="setup" finished-at="2020-10-22T02:30:53Z" duration-ms="5055" status="PASS">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.GoogleSearchTest@6e28bb87]" name="setup" is-config="true" duration-ms="6247" started-at="2020-10-23T03:36:45Z" finished-at="2020-10-23T03:36:51Z">
           <params>
             <param index="0">
               <value>
@@ -49,23 +49,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc_03_searchValue()[pri:1, instance:tests.GoogleSearchTest@7ea899a9]" started-at="2020-10-22T02:30:53Z" name="tc_03_searchValue" finished-at="2020-10-22T02:30:55Z" duration-ms="1788" status="PASS">
+        <test-method status="PASS" signature="tc_03_searchValue()[pri:1, instance:tests.GoogleSearchTest@6e28bb87]" name="tc_03_searchValue" duration-ms="2817" started-at="2020-10-23T03:36:51Z" finished-at="2020-10-23T03:36:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_03_searchValue -->
-        <test-method signature="tc_01_searchValue()[pri:2, instance:tests.GoogleSearchTest@7ea899a9]" started-at="2020-10-22T02:30:55Z" name="tc_01_searchValue" finished-at="2020-10-22T02:30:57Z" duration-ms="1850" status="PASS">
+        <test-method status="PASS" signature="tc_01_searchValue()[pri:2, instance:tests.GoogleSearchTest@6e28bb87]" name="tc_01_searchValue" duration-ms="2315" started-at="2020-10-23T03:36:54Z" finished-at="2020-10-23T03:36:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_01_searchValue -->
-        <test-method signature="tc_02_searchValue()[pri:3, instance:tests.GoogleSearchTest@7ea899a9]" started-at="2020-10-22T02:30:57Z" name="tc_02_searchValue" finished-at="2020-10-22T02:30:59Z" duration-ms="1816" status="PASS">
+        <test-method status="PASS" signature="tc_02_searchValue()[pri:3, instance:tests.GoogleSearchTest@6e28bb87]" name="tc_02_searchValue" duration-ms="3265" started-at="2020-10-23T03:36:56Z" finished-at="2020-10-23T03:37:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_02_searchValue -->
-        <test-method is-config="true" signature="finishTest()[pri:0, instance:tests.GoogleSearchTest@7ea899a9]" started-at="2020-10-22T02:30:59Z" name="finishTest" finished-at="2020-10-22T02:31:00Z" duration-ms="1049" status="PASS">
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:tests.GoogleSearchTest@6e28bb87]" name="finishTest" is-config="true" duration-ms="1293" started-at="2020-10-23T03:37:00Z" finished-at="2020-10-23T03:37:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.GoogleSearchTest@7ea899a9]" started-at="2020-10-22T02:31:00Z" name="afterSuite" finished-at="2020-10-22T02:31:00Z" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.GoogleSearchTest@6e28bb87]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-10-23T03:37:01Z" finished-at="2020-10-23T03:37:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
