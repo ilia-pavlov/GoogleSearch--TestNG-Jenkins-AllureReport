@@ -1,5 +1,5 @@
 #  GoogleSearchTest
-## purpose: testNG + Maven + Jenkins + Allure report by example of Google search
+## purpose: TestNG + Maven + Jenkins + Allure report
 1. cross platform testing for MacOS and Windows10
 2. cross browser testing on FireFox81 and Chrome86
 3. implement testNg
